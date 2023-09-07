@@ -1,0 +1,27 @@
+<h3 class="text-center">Detalles del empleado</h3>
+<div>
+  <div>
+    <label> <b>ID: </b> {{ id }}</label>
+  </div>
+  <div>
+    <label> <b>Nro Documento: </b> {{ nroDocumento }}</label>
+  </div>
+  <div>
+    <label> <b>Nombre: </b> {{ nombre | json }}</label>
+  </div>
+  <div>
+    <label> <b>Apellido: </b> {{ apellido | json }}</label>
+  </div>
+  <div>
+    <label> <b>Email: </b> {{ email | json }}</label>
+  </div>
+  <div>
+    <label> <b>Fecha de Nacimiento: </b> {{ fechaNacimiento | json }}</label>
+  </div>
+  <div>
+    <label> <b>Fecha de Ingreso: </b> {{ fechaIngreso | json }}</label>
+  </div>
+  <div>
+    <label> <b>Fecha de Ingreso: </b> {{ fechaCreacion | json }}</label>
+  </div>
+</div>
